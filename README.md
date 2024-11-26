@@ -9,4 +9,8 @@ The CPU was simulated using Modelsim HDL simulator. If you'd like to simulate it
 1. Set your Modelsim source.
 2. Run the runme.sh script.
 
+## Upload to Xilinx board
+You can upload the CPU to a Xilinx FPGA board using the Vivado synthesis tool. Generate a bitstream and program the device.
+
+## Run your own machine code
 If you'd like to change the machine code loaded into the CPU, it can be found in the ic_cache.vhd source file. 
